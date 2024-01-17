@@ -1,0 +1,50 @@
+name: print_example
+description: "A new Flutter project."
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  esc_pos_utils_plus: ^2.0.3
+  image: ^4.1.4
+  ffi: ^2.1.0
+  win32: ^5.2.0
+  charset_converter: ^2.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+
+  fonts:
+    - family: Open Sans
+      fonts:
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 900
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 800
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 700
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 600
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/OpenSans-Medium.ttf
+          weight: 300
